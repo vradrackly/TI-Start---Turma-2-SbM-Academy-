@@ -1,0 +1,70 @@
+*{
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    background-color: darkslateblue;
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+}
+
+header > div{
+    width: 100%;
+    height: 80px;
+    background-color: goldenrod;
+
+}
+.meio{
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    margin: 10px 0 ;
+}
+
+section, footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around
+
+}
+section > div{
+    width: 49.5%;
+    height: 140px;
+    margin: 10px 0 10px 0;
+    background-color: goldenrod;
+    
+}
+footer > div{
+    width: 49%;
+    height: 140px;
+    margin:10px auto;
+    background-color: darkgreen;
+}
+footer{ 
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 700px){
+    section, footer {
+        width: 100%;
+        height: 140px;
+        margin: 10px 0 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    section > div{
+        width: 100%;
+        height: 140px;
+        margin: 10px 0 10px 0;    
+    }
+    footer > div{
+        width: 100%;
+        height: 140px;
+        margin:10px auto;
+    }
+
+}

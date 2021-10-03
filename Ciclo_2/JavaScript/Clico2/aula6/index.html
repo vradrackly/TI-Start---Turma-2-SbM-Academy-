@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // var é sempre global, menos dentro de uma função ...(por em quanto)
+    //let pode ser gobla, mas fica sendo local se for criada em um escopo
+    // const é a mesma coisa que a let
+
+    // var valor
+    
+    //     if(true){
+    //         let pi=3.14159267
+    //     console.log("Estou dentro do if: " + pi);
+    // }
+
+
+    // // função literal
+    // function soma(){
+    //     //se usar string com num sem parênteses , é concatenado
+    //     document.write("O valor da soma é: " + (10+7));
+    // }
+
+    // document.write("Chamando a função soma agora... <br>");
+    // soma();
+
+    // function nome(){
+    //     var resultado = "Fernando"
+    //     document.write(resultado);
+    // }
+    // // console.log("Estou fora da function " + resultado);
+    // nome();
+
+    //função anônima
+    // let anonima = function(){
+    //     document.write("ESTA é uma função anonima sem parametros");
+    // }
+    // anonima();
+
+    let compararValores=function(valor1, valor2){
+        if (valor1 > valor2) {
+            document.write("O primeiro valor é maior: "  + valor1);
+        }else{
+            document.write("O SEGUNDO valor é maior: " + valor2)
+        }
+    }
+    let num1 = prompt("Digite um valor");
+    let num2 = prompt("Digite outro valor");
+    document.write("Chamando a função de comparação <br> <br>");
+    compararValores(num1,num2);
+   
+</script>
+<body>
+
+</body>
+</html>

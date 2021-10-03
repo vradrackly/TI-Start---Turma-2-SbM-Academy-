@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        border: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(112, 132, 190);
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    main{
+        width: 90%;
+        height: 90%;
+        background-color: rgb(197, 220, 233);
+        margin: 0 auto;
+    }
+    .borda{
+        border: 1px solid red;
+    }
+    .margem{
+        margin: 0 0 0 25px;
+    }
+    .cor_fundo{
+        background-color: white;
+    }
+    .remove_bullet{
+        list-style: none;
+    }
+    .lista{
+        background-color: yellowgreen;
+        width: 100%;
+        height: auto;
+        margin: 2px;
+    }
+    .lista2{
+        background-color: yellowgreen;
+        width: 200px;
+        height: auto;
+        margin: 2px;
+    }
+    a{
+        width: 100%;
+        height: 20px;
+        display: block;
+    }
+</style>
+<body>
+    <main>
+        <h2>Lista desordenada</h2>
+        <!-- mostra uma lista desordenada -->
+        <ul class="margem remove_bullet cor_fundo">
+            <li class="lista">Sabão</li>
+            <li class="lista">Óleo</li>
+            <li class="lista">Bombrio</li>
+            <li class="lista">Arroz</li>
+            <li class="lista">Sal</li>
+        </ul>
+        <h2>Lista Ordenada</h2>
+        <!-- mostra uma lista Ordenada -->
+        <ol class="margem cor_fundo" type="I">
+            <li class="lista2">Pizza</li>
+            <li class="lista2">X-Burger</li>
+            <li class="lista2">Coca-Cola</li>
+            <li class="lista2">Pastel de Frango</li>
+            <li class="lista2">Kibe</li>
+            <li class="lista2"><a href="#"><strong>Clique aqui</strong></a></li>
+
+        </ol>
+        <h2>Lista por definição</h2>
+        <!-- mostra uma lista por definição -->
+        <dl class="cor_fundo" >
+            <dt class="lista2">Carro</dt>
+            <dd class="lista2">Gol</dd>
+            <dd class="lista2">Uno</dd>
+            <dd class="lista2">Maverick</dd>
+            <dd class="lista2">Corola</dd>
+            <dd class="lista2">Hilux</dd>
+            <dt class="lista2">Moto</dt>
+            <dd class="lista2">YBR - Factur</dd>
+            <dd class="lista2">Titan</dd>
+            <dd class="lista2">Trax</dd>
+        </dl>
+        <div></div>
+        <div></div>
+        <div style="background-color: rgb(136, 131, 211); border: none; border-radius: 25px"></div>
+    </main>
+</body>
+</html>

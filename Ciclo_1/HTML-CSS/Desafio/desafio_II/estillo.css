@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor1: #0D47A1;
+    --cor2: #3D5AFE;
+    --cor3: #2196F3;
+    --cor_fonte: rgb(227, 238, 240);
+    --cor_icon: #fff;
+    --fonte_Titulo: verdana, arial;
+    --tamanho_fonte_titulo: 16px;
+    --tamanho_fonte_subTitulo: 10;
+}
+.texto-header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+  }
+header{
+    width: 100vw;
+    height: 200px;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+}
+h1, h2{
+    color: var(--cor_fonte);
+    font-family: var(--fonte_Titulo);
+    text-align: center;
+}
+h2{
+    margin-bottom: 50px;
+}
+nav{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: var(--cor_icon);
+    margin: -60px 0 0 47%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;      
+}
+nav > ul > li{
+    list-style: none;
+    margin-top: 5px;
+}
+.icon{
+    font-size: 64px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+fieldset{
+    width: 300px;
+    margin: 30px auto;  
+    border-radius: 10px;  
+}
+form{
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px 0px 25px;
+}
+.forma_btc{
+    background-color: var(--cor3);
+    color: #fff;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.forma_btc:hover{
+    background-color: rgb(2, 77, 14);
+    color:#fff;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.icon:hover{
+    font-size: 100px;
+    transition: 2s;
+}

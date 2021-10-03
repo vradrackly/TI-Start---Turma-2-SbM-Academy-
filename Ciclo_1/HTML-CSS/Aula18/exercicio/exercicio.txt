@@ -1,0 +1,9 @@
+Como podemos definir uma url, de um exemplo?
+url é um endereço de uma página
+exemplo: http://google.com.br
+
+O que é HTTP?
+É um protocolo de internet
+
+O que são venders do css?
+São uma meneira de forçar o navegador a usar um determinado estico em css que o navegador ainda não suporta completamente (versão beta)

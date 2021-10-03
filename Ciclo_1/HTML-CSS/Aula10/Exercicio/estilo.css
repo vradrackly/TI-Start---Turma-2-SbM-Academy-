@@ -1,0 +1,8 @@
+div#imagem{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(../../Aula9/exercicio2/Rosa_deserto.jpg);
+    background-size: 25%;
+    background-repeat: repeat-x;
+}

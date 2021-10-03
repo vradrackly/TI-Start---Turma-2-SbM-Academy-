@@ -1,0 +1,22 @@
+*{
+    border: 0;
+    padding: 0;
+}
+main{
+    width: 250px;
+    height: auto;
+    background-color: rgb(235, 184, 184);
+    margin: 0 auto;
+}
+    table, thead, th, td{
+        margin: 0 auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+thead{
+    background-color: burlywood;
+}
+td{
+    background-color: cadetblue;
+}

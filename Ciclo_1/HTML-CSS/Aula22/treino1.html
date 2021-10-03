@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        background-color: rgb(230, 225, 225);
+        display: flex;
+        flex-direction: column;
+    }
+    #conteudo{
+        width: 70%;
+        height: 600px;
+        background-color: tomato;
+    }
+    #menu_esquerdo{
+        width: 30%;
+        height: 600px;
+        background-color: rgb(241, 188, 178);
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: violet;
+    }
+    .pagina{
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+<body>
+    <main>
+        <header></header>
+        <div class="pagina" >
+            <section class="pagina" id="menu_esquerdo"></section>
+            <section class="pagina" id="conteudo"></section>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 JavaScript</title>
+</head>
+<script>
+    // var nome= prompt("Qual o seu nome: ");
+    // var cor = prompt("Qual a sua cor preferida?");
+    // document.write("Seu nome é: " + nome + "<br>" + "Sua cor favorita é: " + cor);
+
+
+// if(confirm("Clique em um botão")){
+//     document.write("Voce clicou no botão OK. <br>");
+// }else{
+//     document.write("Voce clicou em cancelar ");
+//     alert("Voce cancelou a operação");
+// }
+
+var opcao=3;
+switch (opcao){
+    case 1:
+        var pergunta = confirm("Voce continuará");
+        if(pergunta){
+            alert("Você precionou o botão ok");
+        }else{
+          alert("Voce cancelcou");
+        }
+    break;
+    case 2: 
+        var pergunta = confirm("Voce casado?");
+        if(pergunta){
+            var conj = prompt("qual o nome do su conje? ");
+            alert("parabéns, vc esta casado (a) com: " + conj);
+    }   else{
+        alert("Voce não é casado (a)")
+    }
+    break;
+    default: document.write("Saindo...");
+    break;
+}
+</script>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* header{
+        border: 1px solid #000;
+        width: 80%;
+        height: 50px;
+    }
+    main{
+        width: 80%;
+        height: auto;
+        border:1px solid #000;
+    }
+    article{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        width: 80%;
+        height: 50px;
+        border:1px solid #000;
+    }*/
+    header, main, footer{
+        width: 80%;
+        border:1px solid #000;
+        margin: 0 auto;
+    }
+    main, article{
+        height: auto;
+    }
+    article{
+        width: 100%;
+    }
+    footer, header{
+        height: 50px;
+    }
+    #margem-ajuste{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .seletor-paragrafo{
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    }
+</style>
+<body>
+    <header>Aqui esta o header</header>
+    <main id="margem-ajuste">
+        <article>
+            <p class= "seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iusto iure animi doloribus quibusdam, tempore esse nostrum 
+                deserunt cupiditate tempora ab minima corporis aut repellat 
+                sequi, eos eum nihil nisi ipsa?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quam id consequuntur suscipit amet, facere aspernatur? 
+                Perspiciatis laudantium cumque vero ad exercitationem dolorem minus, 
+                tempora unde, suscipit, laboriosam minima blanditiis necessitatibus!
+            </p>
+            <p class="seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deleniti reiciendis sapiente distinctio quae velit hic nemo 
+                ea rem laboriosam, facere, inventore dolorum atque repudiandae, 
+                ipsa exercitationem. Nostrum accusantium reiciendis voluptatem.
+            </p>
+        </article>
+    </main>
+    <footer>
+        Aqui esta o meu fooder
+    </footer>
+</body>
+</html>

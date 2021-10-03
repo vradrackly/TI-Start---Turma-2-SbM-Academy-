@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="formulario">
+            <!-- criando o primeiro formulário -->
+            <form method="post" name="cadastro">
+                <fieldset>
+                    <legend>Cadastro de Usuário</legend>
+                <!--  o for no label serve para focar o cursor do mause no input -->
+                    <label for="nome">Nome:</label> 
+                    <input type="text" required placeholder="Digite seu nome" class="txt" id="nome" name="nome_usuario" value="">
+                    <label for="apelido">Sobre Nome:</label>
+                    <input type="text" class="txt"  id="apelido" placeholder="Digite seu Sobre nome" name="sobre_nome" value="">
+                    <label for="data.nsc.">Data Nascimento:</label>
+                    <input required placeholder="00/00/0000" type="text" class="txt"  id="data.nsc." name="data_nacimento" value="">
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha um genero</legend>
+                    <label for="masc">Masculino:</label>
+                    <input type="radio" id="masc" name="sexo" value="M">
+                    <label for="fem"> Feminino:</label>
+                    <input type="radio" id="fem" name="sexo" value="F" >
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha as Linguagem que você domina:</legend>
+                    <label for="lig.php">PHP</label>
+                    <input type="checkbox" id="lig.php" name="php" value="php">
+                    <label for="html">HTML-CSS</label>
+                    <input type="checkbox" id="html" name="html_php" value="html_css">
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="java" name="java" value="java">
+                    <label for="pyton">Pyton</label>
+                    <input type="checkbox" name="pyton" id="pyton" value="pyton">
+                </fieldset>
+                <fieldset>
+                    <legend>Escolha uma opção:</legend>
+                    <select>
+                        <option value="Escolha uma opção">Selecione</option>
+                        <option value="Treinee">Treinee</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="Master">Master</option>
+                        <option value="Mega Power">Mega Power</option>
+                        <option value="Mega Ultra Power Plus Plus">Mega Ultra Power</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Mais informações</legend>
+                    <label for="escrita"Fale sobre você>Fale um pouco sobre você:</label>
+                    <textarea name="" id="escrita" cols="80" rows="15"></textarea>
+                </fieldset>
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

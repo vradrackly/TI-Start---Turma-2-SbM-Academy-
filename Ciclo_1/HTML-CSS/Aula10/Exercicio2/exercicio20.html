@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+    }
+    div.primeira{
+        background: radial-gradient(rgb(120, 119, 122), rgb(130, 189, 53),rgb(185, 35, 43),rgb(120, 119, 122));
+        top: 0;
+        left: 0;
+    }
+    div.terceira{
+        background: radial-gradient(green, red, rgb(51, 54, 61));
+        margin-top: 100px;
+        z-index: 10;
+    }
+    div.segunda{
+        background: linear-gradient(rgb(120, 119, 122), rgb(130, 189, 53),rgb(185, 35, 43),rgb(120, 119, 122));
+        right: 0;
+    }
+</style>
+<body>
+    <div class="primeira"></div>
+    <div class="segunda" style="bottom: 0; right:0;"></div>
+    <div class="terceira"></div>
+</body>
+</html>
