@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.tela{
+    width: 320px;
+    height: 180px;
+    background-color: #294553;
+    border-radius: 7px;
+    justify-content: space-between; /*cria um espaço igual para todos os item filhos*/
+    margin: 3px;
+}
+.tela > .topo > .mic{
+    width: 35px;
+    height: 35px;
+    background-color: #455a64;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+.flex-end{
+    justify-content: flex-end; /*faz alinhamento do final do vewport para o inicio*/
+}
+.center-vertical-horizontal{
+    justify-content: center; /*centraliza o card na horizontal*/
+    align-items: center;     /*centraliz o card na vertical*/
+}
+.topo, .rodape{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 7px;
+    align-items: center; /*centraliza o elemento filho na vertical*/
+}
+.rodape > label{ /*classe rodape atacando diretamente um item dentro do elemento pai*/
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(217, 243, 225);
+}
+.direcao-coluna{
+    flex-direction: column;
+}
+.bolinha{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background-color: #15b1ff;
+    border-radius: 100%;
+    /* fontsize: 42x; */
+    /* color: rgb(217, 243, 225); */
+}
+.bolinha > label{ /* atacando o elemento filho dentro da bolinha*/
+    font-size: 42px;
+    color: rgb(217, 243, 225);
+}
+
+/* microfone ligado
+<span class="material-icons-outlined">
+mic
+</span>
+
+microfone desligado
+<span class="material-icons-outlined">
+mic_off
+</span> */
