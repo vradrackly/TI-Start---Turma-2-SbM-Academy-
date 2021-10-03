@@ -50,7 +50,7 @@ body{
     border-radius: 100%;
     box-shadow:1px 5px 100px(208, 247, 211);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .parte-pokebola-baixo{
     width: 100%;
