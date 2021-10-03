@@ -1,0 +1,11 @@
+1 de um exemplo de uma variável obedecendo a boa prádica camelCase.
+let sobreNome = "Mazureki";
+
+2 Por padrão, qual o tipo de dado atribuido a uma variável quando esta não recebe nehum valor?
+Quando uma variável não recebe nenhum valor ele fica como undefined. Sem valor.
+
+3 Quais são as dus categoria de tipos de dados do JS?
+São primitivos e não primitivo.
+
+4 É verdade que js é uma linguaguem serve-side?
+Não é verdade, o JavaScript é uma linguaguem de programação client-side, podendo sim fazer algumas requisições ao sevidor, mas não é uma serv-side.

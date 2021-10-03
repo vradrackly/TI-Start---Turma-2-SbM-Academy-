@@ -1,0 +1,7 @@
+1 O que são as variáveis em uma linguaguem de programacção?
+
+São uma palavra usada para criar um espaço na memoria, podendo ser chamada no scopo de 
+um programa em questão.
+
+2 Dê um exemplo de um tipo de dado e o que este tipo irá representar.
+Boolean, ele tipo de dado representa que tera um de dois valores, que neste caso so pode ser "verdadeiro ou falso" true or false

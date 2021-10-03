@@ -1,0 +1,6 @@
+Exercício 2
+1- Qual foi a principal finalidade do JavaScript desde sua criação?
+Trazer uma possibilidade de dinamizar as paginas html
+
+2- Qual empresa originou o JavaScript e quando isso ocorreu?
+NetScape foi a criadora do JavaScript, o js foi criado em setembro de 1995

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let nome = prompt("Digite seu nome: ");
+    let idade= prompt("Qual sua idade? ");
+    const idade18Anos=18;
+    
+    if(idade >= idade18Anos){
+        if(idade > idade18Anos){
+            document.write("Seu nome é: " + nome + " e sua idade é: " + idade + " você é maior de idade");
+        }else{
+            document.write("Seu nome é: " + nome + " e sua idade é: " + idade +" então você ja é de maior <br> porque sua idade é 18 anos.");
+        }
+    }else{
+        document.write("Seu nome é: " + nome + " e sua idade é: " + idade + " neste caso você é de menor ");
+    }
+</script>
+<body>
+    
+</body>
+</html>

@@ -24,3 +24,10 @@ const somaNumero = (a, b, c)=>{
 somaNumero(num1, num2, num3);
 
 alert("Esta rodando ate aqui");
+
+// função autoexecultavel
+(function(){
+    alert("Esta função auto execultou");
+
+  })()
+ 
