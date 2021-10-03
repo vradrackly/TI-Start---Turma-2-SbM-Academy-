@@ -1,1 +1,2 @@
 Testando se esta salvando na internet mesmo.
+novas auterações neste arquivo, feito pelo vscode no windows
