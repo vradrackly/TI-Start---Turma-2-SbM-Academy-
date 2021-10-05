@@ -1,0 +1,15 @@
+1 - Qual a diferença de um de claração de variáveis var, let e cost?
+
+A var é a mais antiga, serve como uma variável global(dentro de um function é local)ja a let é uma variável local, pertencente somente no seu escopo
+não sendo possivel o seu uso fora do mesmo. Ja a variável do tipo const, é uma variável especial onde seu valor uma vez declarado não pode ser alterado, tambem pertence ao seu escopo, não sendo posivél 
+a utilização da mesma fora do seu escopo.
+
+2 -É verdade que o uso de parâmetros em função é obrigatório?
+
+Não se faz necessário o uso de parâmetros em uma função. A utilização de parâmetros em uma função
+vai depender como foi criada a função.
+
+3 Selecione a opção verdadeira para inserir um arquivo js em um documento HTML?
+
+Bom, a opção correta seria a letra (c)
+<script src="nomeDoArquivo.js></script>>
