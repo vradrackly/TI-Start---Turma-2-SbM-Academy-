@@ -36,7 +36,7 @@
 // let soma= num + num2;
 // console.log(soma.toString());
 
-// toUUpperCase() Faz a conversão de uma string em maiúscula
+// toUpperCase() Faz a conversão de uma string em maiúscula
 // let str = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eos, laboriosam quam similique modi nihil quisquam perspiciatis quidem maiores rem, a laborum veritatis ea laudantium corporis dignissimos temporibus, at non?`;
 // console.log(str.toUpperCase());
 
