@@ -4,4 +4,8 @@ function exercio12(str, id){
     document.write(`A terceira letra desta string é...: ${str[id].toUpperCase()} <br>`);
     document.write(`A terceira letra desta string sera trocada para 'X'...: ${(str.replace(str[id], 'X').toUpperCase())} <br>`);
 }
-exercio12(`Fernando Mazureki`, 2);
+
+let nome= 'Fernando Mazureki'
+let index = 2
+
+exercio12(nome, index);
