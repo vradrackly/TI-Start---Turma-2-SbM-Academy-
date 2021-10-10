@@ -1,4 +1,4 @@
-//// Exercício 15
+//// Exercício 15 refatorado
 // Refatore o exercicio anterior, usando a mesma função "tabuada" para receber o valor de um elemento de entrada input
 
 //a) A função será executada quando o usário cliclar no botão
@@ -7,32 +7,35 @@
 // Nota: Não use o método documento.write como método de saída.
 
 // let num = prompt(`Este é um programa de tabuada, escolhe um número de 1 a 10 para fazer o calculo`);
-function calculadora(num){
-    if(Number(num)){
-        if(num > 0 && num <= 10){
+
+
+function calculadora(num){ // Esta função so faz o calculo e acresenta o resultado em um array
+
             for(let cont = 1; cont < 11; cont++){
-                // console.log(`${num} x ${cont} = ${num * cont}`);
                 calculo.push((`${num} x ${cont} = ${num * cont}`));
             }
-        }else{
-            console.log(`O número deve estar ente 1 a 10, você digitou...: ${num}`);
-        }
-    }else {
-        console.log(`O valor "${num}", não é um número válido`);
-    }
-
 }
-let calculo = [];
 
-window.onload  =function(){
-    const botao = document.querySelector('#btn');
-    const caixa = document.querySelector('#caixa');
-    const result = document.querySelector('#texto');
+let calculo = []; //varialvel global para transportar o resultado de uma função para outra
 
-    botao.addEventListener('click', function(){
-        calculadora(result.value);
-        for(let i = 1; i < 11; i++){
-            caixa.innerHTML += "<br>" + calculo[i-1];
-        }
+// aqui de fato iniciar a brincadeira
+window.onload  = function(){
+    const botao = document.querySelector('#btn'); // recebe o clic no botão da pagina
+    const entrada = document.querySelector('#caixaTexto'); // recebe o valor digitado no campo de texto da pagina
+    const saida = document.querySelector('#caixaDiv'); // recebe os dados ja calculados para ser exibidos no campo de uma Div da pagina
+
+    botao.addEventListener('click', function(){        
+        if(Number(entrada.value)){
+            if(entrada.value > 0 && entrada.value <= 10){
+                calculadora(entrada.value);
+                for(let i = 1; i < 11; i++){
+                    saida.innerHTML += '<br>' + calculo[i-1];
+                }
+            } else{
+                saida.innerHTML = `O número deve estar ente 1 a 10, você digitou...: ${entrada.value}`;
+            }                          
+        }else{
+            saida.innerHTML = `O valor "${entrada.value}", não é um número válido`;
+        }                           
     })
 }

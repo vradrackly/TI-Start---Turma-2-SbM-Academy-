@@ -25,8 +25,12 @@ window.onload=function(){
 
         //Para concatenar é so usar um sinal de '+' antes do sinal de '=', isto me parece ser mais eficiente
         caixa.innerHTML += " " + textBox.value;
+        
     });
 }
+
+        
+
 
 
 

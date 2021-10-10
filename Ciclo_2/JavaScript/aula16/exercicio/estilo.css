@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+}
+.centralizar{
+    align-items: center;
+    text-align: center;
+}
+.coluna{
+    flex-direction: column;
+}
+.forma{
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+#divPai{
+    width: 100%;
+    height: auto;
+}
+#caixaTexto{
+    border:1px solid black;
+}
