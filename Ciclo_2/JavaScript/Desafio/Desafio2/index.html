@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="module" src="script.js"></script>
+   <!-- <script src="modulo.js"></script> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desafio 2 do Modulo 2</title>
+</head>
+<body>
+    <header class="texto-header">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM EDEREÇO PELO CEP</h2> 
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <span class="material-icons icon"><a href="#"> travel_explore</a></span>
+            </li>
+      </ul>
+    </nav>  
+  
+    <main>
+        <fieldset>
+            <form name="formulario" method="post">
+                <label for="cep">CEP</label>
+                <input type="text" placeholder="Digite aqui seu CEP" id="cep" name="cep" value="">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" disabled="true" id="logradouro" value="">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" disabled="true" id="bairro" value="">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" disabled="true" id="localidade" value="">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" disabled="true" id="uf" value="">
+                <input class="forma_btc" type="button" name="pesquisar" id="buscarCep" value="PESQUISAR">
+        </form>
+        </fieldset>
+    </main>
+    
+</body>
+</html>
